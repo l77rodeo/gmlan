@@ -61,22 +61,22 @@ Specifically, I am attempting to understand the message content and structure of
 
 
 ## Message ID 0C9
-1. Accelerator acutal position
+1. Accelerator actual position
 2. Accelerator actual position validity
 3. Engine run active
 4. Engine speed
 5. Engine speed status
 6. Platform engines speed command inhibit request
 7. Power takeoff powertrain Run aborted
-8. Powertrain brake pedal descrete input
-9. Powertrain brake pedal descrete input validity
+8. Powertrain brake pedal discrete input
+9. Powertrain brake pedal discrete input validity
 10. Powertrain crank aborted
 11. Powertrain crank active
 12. Powertrain run aborted
 13. Remote vehicle start engine running
 14. Cylinder deactivation mode
 15. Engine Idle active
-16. Driver throttle overide detected
+16. Driver throttle override detected
 17. Cruise control enabled
 18. Cruise control active status
 
