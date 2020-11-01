@@ -5,60 +5,11 @@ All of this information (so far) is from a vehicle with a E38 PCM (Powertrain CO
 
 Specifically, I am attempting to understand the message content and structure of high speed (HS) 11 bit canbus data maessages with the following message IDs:
 
-- 0C7
-- 0F1
-- 199
-- [0C9](https://github.com/l77rodeo/gmlan/blob/main/README.md#message-id-0c9)
-- 1EF
-- 191
-- 1E1
-- 1F9
-- 19D
-- 0F9
-- 1F5
-- 1F3
-- 1ED
-- 189
-- 388
-- 1AF
-- 380
-- 3C9
-- 280
-- 12A
-- 2D1
-- 1C3
-- 1F1
-- 1A1
-- 2C3
-- 4C1
-- 3E9
-- 2F0
-- 3F1
-- 3FB
-- 3C1
-- 3F9
-- 3D1
-- 771
-- 4D1
-- 4C9
-- 4E1
-- 514
-- 138
-- 130
-- 4E9
-- 52A
-- 77F
-- 772
-- 4C1
-- 671
-- 120
-- 641
-- 4F1
-- 241
-- 244
-- 644
-- 544
-
+0C7   0F1   199   [0C9](#message-id-0c9)   1EF   191   1E1   1F9   19D   [0F9](#message-id-0cf9)   [1F5](#message-id-1f5)   [1F3](#message-id-1f3)
+1ED   189   388   1AF   380   3C9   280   12A   2D1   1C3   1F1   1A1
+2C3   4C1   3E9   2F0   3F1   3FB   3C1   3F9   3D1   771   4D1   4C9
+4E1   514   138   130   [4E9](#message-id-0cf9)   52A   77F   772   4C1   671   120   641
+4F1   241   244   644   544
 
 ## Message ID 0C9
 1. Accelerator actual position
@@ -128,5 +79,20 @@ example message
 - 1F5 0F0F000200000300 = Reverse
 - 1F5 0F0F000300000300 = Neutral
 - 1F5 0F0F000400000300 = Drive
+
+## Message ID 4E9
+(GW tx)
+1. Ac compressor type
+2. Elapsed time count
+3. Elapsed time count reset occurred
+4. Antilock braking system present
+5. Platform engine speed commend system type
+6. Traction control system present
+7. Vehicle speed control system type
+8. Vehicle stability enhancement system present
+
+example message
+- 4E9	01003C11C6
+- 4E9	01003C13A2
 
 
