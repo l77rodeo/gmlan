@@ -101,4 +101,13 @@ Specifically, I am attempting to understand the message content and structure of
 9. Transmission platform shift pattern switch 4 active
 10. Transmission platform shift pattern switch alive rolling count
 
+## Message ID 1F5
+(TCM,ECM tx)
+1. Automatic transmission commanded gear
+2. Automatic transmission gear shift direction
+3. Driver shift control request denied indicator on
+4. Driver shift control target gear
+5. Engine recommended upshift indicator on
+
+6. selector/tutd status/shift mode
 
