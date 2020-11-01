@@ -108,6 +108,26 @@ Specifically, I am attempting to understand the message content and structure of
 3. Driver shift control request denied indicator on
 4. Driver shift control target gear
 5. Engine recommended upshift indicator on
+6. Overdrive Disable Granted
+7. Top of travel clutch switch active
+8. Top of travel clutch switch active validity
+9. Transmission creep mode active
+10. Transmission estimated gear
+11. Transmission estimated gear validity
+12. Transmission range inhibit status
+13. Transmission shift lever lock requested
+14. Transmission shift lever position
+15. Transmission shift lever position validity
+16. Transmission shift mode status
+17. Transmission shift pattern active status
+18. Transmission skip shift indicator on
+19. Transmission Tap up/Tap down mode status
 
-6. selector/tutd status/shift mode
+example
+ID  DATA
+1F5 0F0F000100000300 = Park
+1F5 0F0F000200000300 = Reverse
+1F5 0F0F000300000300 = Neutral
+1F5 0F0F000400000300 = Drive
+
 
