@@ -5,8 +5,8 @@ All of this information (so far) is from a vehicle with a E38 PCM (Powertrain CO
 
 Specifically, I am attempting to understand the message content and structure of high speed (HS) 11 bit canbus data maessages with the following message IDs:
 
-0C7   0F1   199   [0C9](#message-id-0c9)   1EF   191   1E1   1F9   19D   [0F9](#message-id-0cf9)   [1F5](#message-id-1f5)   [1F3](#message-id-1f3)
-1ED   189   388   1AF   380   3C9   280   12A   2D1   1C3   1F1   1A1
+0C7   0F1   199   [0C9](#message-id-0c9)   1EF   191   [1E1](#message-id-1e1)   1F9   19D   [0F9](#message-id-0f9)   [1F5](#message-id-1f5)   [1F3](#message-id-1f3)
+1ED   189   388   1AF   380   3C9   280   12A   2D1   1C3   [1F1](#message-id-1f1)   1A1
 2C3   4C1   3E9   2F0   3F1   3FB   3C1   3F9   3D1   771   4D1   4C9
 4E1   514   138   130   [4E9](#message-id-4e9)   52A   77F   772   4C1   671   120   641
 4F1   241   244   644   544
@@ -95,4 +95,38 @@ example message
 - 4E9	01003C11C6
 - 4E9	01003C13A2
 
+## Message ID 1E1
+(GW tx)
+1. Cruise Control Cancel Request
+2. Cruise control switch status
+3. Cruise control switch status alive rolling count
+4. Cruise control switch status protection value
+
+example message(s)
+- 1E1	0000040000
+- 1E1	00FF050020
+- 1E1	00FE060040
+- 1E1	00FD070060
+
+
+## Message ID 1F1
+(GW tx)
+1. Display measurement system
+2. Engine oil life reset request
+3. Immobilizer pre release password
+4. Immobilizer pre release password status
+5. Park brake switch active
+6. Park brake virtual device availablity
+7. Power mode master accessory
+8. Power mode master run crank terminal status
+9. Power takeoff remote start master engine shutdown request
+10. Power takeoff remote start master engine start request
+11. Remote vehicle start request
+12. System backup power mode
+13. System backup power mode enabled
+14. System power mode
+15. Throttle progression request
+
+example message(s)
+- 1F1	0500000008000070
 
