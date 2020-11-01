@@ -61,44 +61,44 @@ Specifically, I am attempting to understand the message content and structure of
 
 
 ## Message ID 0C9
-Accelerator acutal position
-Accelerator actual position validity
-Engine run active
-Engine speed
-Engine speed status
-Platform engines speed command inhibit request
-Power takeoff powertrain Run aborted
-Powertrain brake pedal descrete input
-Powertrain brake pedal descrete input validity
-Powertrain crank aborted
-Powertrain crank active
-Powertrain run aborted
-Remote vehicle start engine running
-Cylinder deactivation mode
-Engine Idle active
-Driver throttle overide detected
-Cruise control enabled
-Cruise control active status
+1. Accelerator acutal position
+2. Accelerator actual position validity
+3. Engine run active
+4. Engine speed
+5. Engine speed status
+6. Platform engines speed command inhibit request
+7. Power takeoff powertrain Run aborted
+8. Powertrain brake pedal descrete input
+9. Powertrain brake pedal descrete input validity
+10. Powertrain crank aborted
+11. Powertrain crank active
+12. Powertrain run aborted
+13. Remote vehicle start engine running
+14. Cylinder deactivation mode
+15. Engine Idle active
+16. Driver throttle overide detected
+17. Cruise control enabled
+18. Cruise control active status
 
 ## Message ID 0F9
-Transmission Output shaft angular velocity
-Transmission Output shaft angular velocity sensor present
-Transmission Output shaft angular velocity validity
-Transmission overall estimated torque ratio
-Transmission overall estimated torque ratio validity"
+1. Transmission Output shaft angular velocity
+2. Transmission Output shaft angular velocity sensor present
+3. Transmission Output shaft angular velocity validity
+4. Transmission overall estimated torque ratio
+5. Transmission overall estimated torque ratio validity"
 
 
 ## Message ID 1F3	
 (GW tx)
-Overdrive disable requested
-Platform transmission tap up/tap down enable switch state
-Platform transmission tap up/tap down switch state
-Platform transmission tap up/tap down switch status rolling count
-Transmission oil life reset request
-Transmission platform shift pattern switch 1 active
-Transmission platform shift pattern switch 2 active
-Transmission platform shift pattern switch 3 active
-Transmission platform shift pattern switch 4 active
-Transmission platform shift pattern switch alive rolling count
+1. Overdrive disable requested
+2. Platform transmission tap up/tap down enable switch state
+3. Platform transmission tap up/tap down switch state
+4. Platform transmission tap up/tap down switch status rolling count
+5. Transmission oil life reset request
+6. Transmission platform shift pattern switch 1 active
+7. Transmission platform shift pattern switch 2 active
+8. Transmission platform shift pattern switch 3 active
+9. Transmission platform shift pattern switch 4 active
+10. Transmission platform shift pattern switch alive rolling count
 
 
