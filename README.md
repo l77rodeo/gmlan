@@ -8,7 +8,7 @@ Specifically, I am attempting to understand the message content and structure of
 - 0C7
 - 0F1
 - 199
-- 0C9
+- [0C9](https://github.com/l77rodeo/gmlan/blob/main/README.md#message-id-0c9)
 - 1EF
 - 191
 - 1E1
@@ -123,11 +123,10 @@ Specifically, I am attempting to understand the message content and structure of
 18. Transmission skip shift indicator on
 19. Transmission Tap up/Tap down mode status
 
-example
-ID  DATA
-1F5 0F0F000100000300 = Park
-1F5 0F0F000200000300 = Reverse
-1F5 0F0F000300000300 = Neutral
-1F5 0F0F000400000300 = Drive
+example message
+- 1F5 0F0F000100000300 = Park
+- 1F5 0F0F000200000300 = Reverse
+- 1F5 0F0F000300000300 = Neutral
+- 1F5 0F0F000400000300 = Drive
 
 
