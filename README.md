@@ -1,6 +1,8 @@
 # GMLAN Definition
 This repositority defineds GMLAN CANBUS messages that are used by General Motors to communication information between control modules in GM vehicles.
 
+All of this information (so far) is from a vehicle with a E38 PCM (Powertrain COntrol Module) and T43 TCM (Transmission Control Module). The information is likely to be relevant to many other GM ECU's as the GM standard GMW8762 applies to many vehicles.
+
 Specifically, I am attempting to understand the message content and structure of high speed (HS) 11 bit canbus data maessages with the following message IDs:
 
 0C7
@@ -56,3 +58,47 @@ Specifically, I am attempting to understand the message content and structure of
 244
 644
 544
+
+
+##Message ID 0C9
+Accelerator acutal position
+Accelerator actual position validity
+Engine run active
+Engine speed
+Engine speed status
+Platform engines speed command inhibit request
+Power takeoff powertrain Run aborted
+Powertrain brake pedal descrete input
+Powertrain brake pedal descrete input validity
+Powertrain crank aborted
+Powertrain crank active
+Powertrain run aborted
+Remote vehicle start engine running
+Cylinder deactivation mode
+Engine Idle active
+Driver throttle overide detected
+Cruise control enabled
+Cruise control active status
+
+##Message ID 0F9
+Transmission Output shaft angular velocity
+Transmission Output shaft angular velocity sensor present
+Transmission Output shaft angular velocity validity
+Transmission overall estimated torque ratio
+Transmission overall estimated torque ratio validity"
+
+
+##Message ID 1F3	
+(GW tx)
+Overdrive disable requested
+Platform transmission tap up/tap down enable switch state
+Platform transmission tap up/tap down switch state
+Platform transmission tap up/tap down switch status rolling count
+Transmission oil life reset request
+Transmission platform shift pattern switch 1 active
+Transmission platform shift pattern switch 2 active
+Transmission platform shift pattern switch 3 active
+Transmission platform shift pattern switch 4 active
+Transmission platform shift pattern switch alive rolling count
+
+
